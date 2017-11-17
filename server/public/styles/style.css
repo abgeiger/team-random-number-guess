@@ -1,11 +1,59 @@
-#startButtonEasy {
+#easyButton {
     background-color: yellow;
 }
 
-#startButtonMedium {
+#mediumButton {
     background-color: orange;
 }
 
-#startButtonHard {
+#hardButton {
     background-color: red;
 }
+
+#startButtonEasy {
+    background-color: limegreen;
+}
+
+#startButtonMedium {
+    background-color: limegreen;
+}
+
+#startButtonHard {
+    background-color: limegreen;
+}
+
+#submitGuessesButton {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+button {
+    font-family: monospace;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mainDiv {
+    width: 600px;
+    height: 500px;
+    padding-top: 15px;
+    padding-left: 30px;
+    color: limegreen;
+    background-color: black;
+    font-family: monospace;
+}
+
+#playAgainDiv {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* input {
+    background-color: lightgreen;
+} */

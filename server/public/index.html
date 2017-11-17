@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Random Number Guess</title>
+    <title>Random Number Guessing Game</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="vendors/jquery-3.2.1.js"></script>
     <script src="scripts/client.js"></script>
 
 </head>
 <body>
-        <h1>Random Number Guess</h1>
+<div id="mainDiv">
+        <h1>Random Number Guessing Game</h1>
     <div id="setupModeDiv">
         <button id="easyButton">Easy</button>
         <button id="mediumButton">Medium</button>
@@ -20,14 +21,20 @@
         <div id=startButtonDiv></div>
     </div>
     <div id="playModeDiv">
-            <p>Highest number you can guess: 10</p>
+            <p id="guessIndicator"></p>
             <p>Player 1: <input id="playerOne" type="number" placeholder="Guess"></p>
             <p>Player 2: <input id="playerTwo" type="number" placeholder="Guess"></p>
             <p>Player 3: <input id="playerThree" type="number" placeholder="Guess"></p>
             <p>Player 4: <input id="playerFour" type="number" placeholder="Guess"></p>
             <button id="submitGuessesButton">SUBMIT GUESSES</button>
-            <p id="roundCounterTaco">You have made no guesses.</p>
+            <p id="roundCounter">You have made no guesses.</p>
+            <div id="guessResultsDiv">
+                
+            </div>
+            <div id="playAgainDiv">
+                <button id="cancelGameButton">CANCEL GAME</button>
+            </div>
     </div>
-
+</div>
 </body>
 </html>
